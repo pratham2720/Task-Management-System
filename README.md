@@ -4,8 +4,10 @@ A calm, space-inspired task management system built for focused productivity and
 
 ## Live Demo
 
-Frontend - https://cosmodeck.vercel.app 
+Frontend - https://cosmodeck.vercel.app
+
 Backend API - https://cosmodeck-api.onrender.com 
+
 API Docs - https://cosmodeck-api.onrender.com/api-docs 
 
 ## Features
@@ -31,11 +33,17 @@ API Docs - https://cosmodeck-api.onrender.com/api-docs
 ## Tech Stack
 
 Frontend -  React 19 + Vite 
-Styling - Vanilla CSS (Cosmic Dark Theme) 
+
+Styling - Vanilla CSS (Cosmic Dark Theme)
+
 Backend - Node.js + Express 5 
+
 Database - SQLite + Sequelize ORM 
+
 Auth - JWT (JSON Web Tokens) 
+
 API Docs - Swagger UI 
+
 
 ## Local Setup
 
@@ -85,16 +93,25 @@ npm run dev
 
 ### Authentication
 POST - `/api/auth/register` - Register new user 
+
 POST - `/api/auth/login` - Login user 
+
 GET - `/api/auth/profile` - Get user profile (protected) 
+
 
 ### Tasks
 GET - `/api/tasks` - Get all tasks 
+
 POST - `/api/tasks` - Create new task 
+
 GET - `/api/tasks/:id` - Get specific task 
+
 PUT - `/api/tasks/:id` - Update task 
+
 DELETE - `/api/tasks/:id` - Delete task 
-GET - `/api/tasks/stats` - Get task statistics 
+
+GET - `/api/tasks/stats` - Get task statistics
+
 
 ##Task Model
 
@@ -164,4 +181,5 @@ cosmodeck/
 ```
 
 ##Author
+
 Pratham Saxena
